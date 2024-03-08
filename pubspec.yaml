@@ -1,0 +1,48 @@
+name: futuer_code
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  get_cli: ^1.8.1
+  dio: ^5.3.3
+  connectivity: ^3.0.6
+  get_storage: ^2.1.1
+  flutter_svg: ^2.0.7
+  flutter_screenutil: ^5.9.0
+  flutter_statusbarcolor_ns: ^0.5.0
+  percent_indicator: ^4.2.3
+  cached_network_image: ^3.2.3
+  image_picker: ^1.0.4
+  fluttertoast: ^8.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/media/images/
+  fonts:
+    - family: Somar
+      fonts:
+        - asset: assets/fonts/Standard/SomarSans-Black.ttf
+        - asset: assets/fonts/Standard/SomarSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Standard/SomarSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Standard/SomarSans-Light.ttf
+
